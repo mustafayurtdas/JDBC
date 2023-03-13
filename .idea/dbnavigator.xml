@@ -13,7 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="8b0d8ce5-eb82-471e-bf5f-71784f34a42d">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler]]></console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from doctors;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -58,7 +58,7 @@
           <deprecated-pwd value="cG15eS43ODUzMDgxMw==" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />
