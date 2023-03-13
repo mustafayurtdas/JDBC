@@ -1,3 +1,4 @@
+
 import java.sql.*;
 
 public class Query02 {
@@ -44,4 +45,7 @@ public class Query02 {
         data2.close();
 
     }
+=======
+package PACKAGE_NAME;public class Query02 {
+>>>>>>> origin/main
 }
