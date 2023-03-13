@@ -44,8 +44,15 @@ public class Query02 {
         data.close();
         data2.close();
 
+
+
+
+
+
+
+
+
+
+
     }
-=======
-package PACKAGE_NAME;public class Query02 {
->>>>>>> origin/main
 }
