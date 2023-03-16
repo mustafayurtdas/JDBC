@@ -1,0 +1,23 @@
+execute() --> CREATE, DROP, ALTER (DDL Language) icin kullanilir.
+                      Buralarda bir sey donmuyor bu nedenle Collection return etmiyor.
+
+executeUpdate() --> UPDATE, INSERT, DELETE (DML Language) icin kullanilir.
+
+executeQuery() --> SELECT (DQL Language) icin kullanilir.
+                    Bize tablodaki verileri dondurdugu icin ResultSet'e kaydederiz.
+                    Eğer daha detaylı data okumak istersek ResultSetMetaData'ya kaydederiz.
+
+   Java DataBase Connectivity = JDBC
+          JDBC, Java dilinde yazılmış uygulamaların DataBase ile etkileşime girmesini sağlayan arayüzdür.
+          Driver: Database ile olan iletişimi idare eder. DriverManager objesi üzerinden erişim sağlanır.
+          Connection: İletişim kurmak için gereken, yazılan tüm yöntemleri içerir.
+                      İletişim connection objesi aracılığı ile yapılıyor.
+          ResultSet: JDBC kullanarak data çekme işlemi sonrasında veri listelemek için ResultSet Class kullanılır.
+                     Verileri saklar. Verilerin arasında gitmemizi sağlar.
+                     Veriler üzerinde dolaşmak için next(), first(), last(), previous(), absolute() gibi methodları kullanıcaz.
+
+      ResultSet ile karşıdan data gelirse alıyoruz.
+                Ama
+                Tabloyla ilgili daha ayrıntılı daha detaylı
+            data istersek (sütun ismi variables türü gibi)
+            bunu ResultSetMetaData ile alıyoruz.
