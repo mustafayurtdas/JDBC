@@ -6,7 +6,7 @@ public class Query06 {
         Connection con = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/JDBC",
                 "postgres",
-                "pmyy.78530813");
+                "12345");
         // Statement st = con.createStatement();
 
         //st.executeUpdate("insert into ogrenciler values(800,'AliCan',11,'E'");

@@ -9,7 +9,7 @@ public class Query05 {
         Connection con = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/JDBC",
                 "postgres",
-                "pmyy.78530813");
+                "12345");
         Statement st = con.createStatement();
 
         //SORU: Öğrenciler tablosuna yen bir kayıt ekleyin (300, 'Sena Can', 12, 'K')

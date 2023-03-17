@@ -12,7 +12,7 @@ public class Query03 {
         Connection con = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/JDBC",
                 "postgres",
-                "pmyy.78530813");
+                "12345");
         Statement st = con.createStatement();
 
         //"workers" adında bir table oluşturup "worker_id, worker_name, worker_salary" sütunlarını ekleyin.

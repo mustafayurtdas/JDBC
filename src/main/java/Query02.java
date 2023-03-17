@@ -12,7 +12,7 @@ public class Query02 {
         Connection con = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/JDBC",
                 "postgres",
-                "pmyy.78530813");
+                "12345");
 
         // 3) Statement
         Statement st = con.createStatement();

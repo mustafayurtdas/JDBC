@@ -12,7 +12,7 @@ public class DatabaseUtility {
     public static void createConnection() {
         String url = "jdbc:postgresql://localhost:5432/JDBC";
         String user = "postgres";
-        String password = "pmyy.78530813";
+        String password = "12345";
         try {
             connection = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
